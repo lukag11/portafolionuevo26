@@ -12,8 +12,6 @@ const Header = () => {
   return (
     <>
       <HeaderStyled>
-        <LogoNavBar src={logolg} />
-
         <NavBar>
           <NavbarList>
             <NavBarItem>Sobre Mi</NavBarItem>
@@ -22,7 +20,6 @@ const Header = () => {
             <NavBarItem>Contacto</NavBarItem>
           </NavbarList>
         </NavBar>
-        {/* <MenuBars /> */}
       </HeaderStyled>
     </>
   );
