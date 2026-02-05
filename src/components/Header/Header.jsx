@@ -12,6 +12,8 @@ const Header = () => {
   return (
     <>
       <HeaderStyled>
+        <LogoNavBar src={logolg} />
+
         <NavBar>
           <NavbarList>
             <NavBarItem>Sobre Mi</NavBarItem>
