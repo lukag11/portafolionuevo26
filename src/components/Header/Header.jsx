@@ -13,8 +13,7 @@ const Header = () => {
     <>
       <HeaderStyled>
         <LogoNavBar src={logolg} />
-        {/* tenemos un contexto donde tenemos creado una funcion para poder abrir
-        el menu al presionar */}
+
         <NavBar>
           <NavbarList>
             <NavBarItem>Sobre Mi</NavBarItem>
