@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyled = createGlobalStyle`
- @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 
     *{
         margin: 0;
