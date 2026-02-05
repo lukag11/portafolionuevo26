@@ -4,7 +4,7 @@ import GlobalStyled from "./styles/GlobalStyled";
 function App() {
   return (
     <>
-      <GlobalStyled />
+      {/* <GlobalStyled /> */}
       <Header />
     </>
   );
