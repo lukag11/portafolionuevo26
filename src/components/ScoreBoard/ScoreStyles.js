@@ -118,7 +118,7 @@ export const Soundbar = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: row;
-    margin: 30px;
+    margin: 10px;
     width: 100%;
     min-height: 60px;
     border-radius: 0px;
@@ -249,7 +249,7 @@ export const ScoreNumber = styled.h1`
   filter: drop-shadow(0 0 15px rgba(0, 243, 255, 0.6));
 
   @media (max-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     border: 1px solid var(--text-light);
   }
 `;
