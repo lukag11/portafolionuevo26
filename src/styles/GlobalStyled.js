@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyled = createGlobalStyle`
  /* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+  
 
     *{
         margin: 0;
@@ -31,6 +32,16 @@ export const GlobalStyled = createGlobalStyle`
   --text-light: #FFFFFF;
   --text-dark: #808080;
 
+  // estilo para el scoreboard
+
+
+    --primary-neon: #00f3ff;
+  --secondary-neon: #ff0055;
+  --bg-dark: #050510;
+  --glass-bg: rgba(20, 20, 30, 0.6);
+  --border-tech: 1px solid rgba(0, 243, 255, 0.3);
+
+
 
 }
 body{
@@ -47,6 +58,9 @@ font-family: 'Press Start 2P', cursive;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+
+  
 }
 
 

@@ -11,7 +11,6 @@ export const HeaderStyled = styled.header`
   width: 100%;
   top: 0;
   z-index: 2;
-  /* border: 1px solid green; */
 
   // CELULAR
   @media (max-width: 992px) {
@@ -21,7 +20,6 @@ export const HeaderStyled = styled.header`
 
 export const LogoNavBar = styled.img`
   height: 90%;
-  /* border: 1px solid red; */
 `;
 
 export const NavBar = styled.nav`
@@ -64,10 +62,7 @@ export const NavBar = styled.nav`
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo3_ph87uz.jpg");
-    /* background-image: url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo4_seosnz.jpg"); */
-    /* background-image: url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo2_mlqldy.avif"); */
-    /* background-image: url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510502/neon-light-gate-background-free-vector_pg8dhy.jpg"); */
-    opacity: 80%;
+    opacity: 100%;
     filter: brightness(200%);
     background-size: cover;
     background-repeat: no-repeat;
