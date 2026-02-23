@@ -41,6 +41,13 @@ export const GlobalStyled = createGlobalStyle`
   --glass-bg: rgba(20, 20, 30, 0.6);
   --border-tech: 1px solid rgba(0, 243, 255, 0.3);
 
+  // estilo para el about us
+
+    --neon-cyan: #00f3ff;
+  --neon-pink2: #ff0055;
+  --bg-dark: #050510;
+  --glass-panel: rgba(20, 25, 35, 0.7);
+
 
 
 }

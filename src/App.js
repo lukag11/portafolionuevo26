@@ -1,3 +1,4 @@
+import Aboutus from "./components/AboutUs/Aboutus";
 import Header from "./components/Header/Header";
 import Scoreboard from "./components/ScoreBoard/Score";
 
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyled />
       <Header />
       <Scoreboard />
+      <Aboutus />
     </>
   );
 }
