@@ -43,7 +43,7 @@ export const ContainerAboutUs = styled.div`
     0 40px
   );
 
-  @media (max-width: 850px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
     clip-path: none;
     border-radius: 15px;
@@ -60,7 +60,7 @@ export const ContainerGeneralAvatar = styled.div`
   padding: 40px 20px;
   border-right: 3px dashed var(--text-dark);
 
-  @media (max-width: 850px) {
+  @media (max-width: 768px) {
     border-right: none;
     border-bottom: 1px solid var(--text-dark);
     padding: 30px;
@@ -116,7 +116,7 @@ export const ContainerPlayerTitle = styled.div`
   border-bottom: 2px solid var(--neon-pink);
   padding-bottom: 10px;
 
-  @media (max-width: 850px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -132,7 +132,7 @@ export const PlayerTitle = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media (max-width: 850px) {
+  @media (max-width: 768px) {
     font-size: 2rem;
   }
 `;
@@ -149,6 +149,12 @@ export const StoryText = styled.div`
   line-height: 1.8;
   color: #ddd;
   margin-bottom: 45px;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 5px;
+  }
 `;
 
 // subtitlo mi historia y mi objetivo
@@ -158,6 +164,11 @@ export const SubHeading = styled.span`
   font-family: "Orbitron", monospace;
   font-size: 0.9rem;
   margin-right: 8px;
+
+  @media (max-width: 768px) {
+    font-weight: 800;
+    font-size: 0.8rem;
+  }
 `;
 
 // Creamos dos columnas con display grid asi podemos mostrar las stat de forma ordenada
@@ -166,7 +177,7 @@ export const AttributesGrid = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 25px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -222,7 +233,7 @@ export const ContainerCardFooter = styled.div`
   letter-spacing: 2px;
   animation: ${statusHover} 1.5s infinite alternate;
 
-  @media (max-width: 850px) {
+  @media (max-width: 768px) {
     position: relative;
     margin-top: 20px;
     right: 0;

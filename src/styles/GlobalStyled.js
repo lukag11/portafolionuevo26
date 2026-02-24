@@ -9,7 +9,7 @@ export const GlobalStyled = createGlobalStyle`
         padding: 0; 
         box-sizing: border-box;
 
-        color: black;
+        /* color: white; */
         text-decoration: none;
         
     }
@@ -18,6 +18,7 @@ export const GlobalStyled = createGlobalStyle`
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
 }
+
 
 
 
