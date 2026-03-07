@@ -1,4 +1,5 @@
 import Aboutus from "./components/AboutUs/Aboutus";
+import HardSkills from "./components/HardSkills/HardSkills";
 import Header from "./components/Header/Header";
 import Scoreboard from "./components/ScoreBoard/Score";
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Scoreboard />
       <Aboutus />
+      <HardSkills />
     </>
   );
 }
